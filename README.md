@@ -1,41 +1,8 @@
-# Algorithm Challenge Boilerplate
+# Binary Search Trees
 
-```
-git clone https://github.com/LondonAlgorithms/boilerplate.git
-cd boilerplate
-```
+Binary search trees are one of the fundamental data structures you learn about when you pick up a data structures text book.
+I picked this for my presentation because binary search tree are a great structure to visualise and the implementation is possible using basics such as `IF/ELSE` and `WHILE`.
 
-Here's some tips for creating a great algorithm challenge:
+Before you get started on the exercises my favourite demo of the algorithm is [here](http://btechsmartclass.com/DS/U5_T1.html).
 
-- Write a readme
-- Add specs
-- Add function definitions
-- Add helpers
-- Update `src/algo.js` filename with name of algo
-- Update `SpecRunner.html` `<title>` with name of algo
-
-
-## Readme
-
-- Introduction: Write a clear description of the algorithm
-- Resources: Include links to any slides, blog posts or articles if you are relying on them to help people to quickly grasp the concepts involved
-- The challenge: Describe the challenge step by step (enough so someone without prior explanation can get started)
-- Helpers: Document the helpers you are providing and, if helpful, explain the role they play in the algorithm
-- Credits
-
-
-## Specs
-
-- Start with some easy functions (give people a foot in the door)
-- Specs should correspond the functions the student is writing
-
-## Function definitions
-
-- Create shell functions
-- Document functions using JSDoc
-- Try to keep functions in an order that corresponds to the specs
-
-## Helpers
-
-- Abstract away all the icky complex code into helpers
-- Document in the readme
+## Exercises
