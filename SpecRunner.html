@@ -18,12 +18,12 @@
 
     <!-- Load tests and helpers here -->
     <script src="src/helpers.js"></script>
-    <script src="src/algo.js"></script>
+    <script src="src/binary_search_tree.js"></script>
     <script src="spec/spec.js"></script>
 
     <script>
       // Mocha expects a global onload var here and automagically executes it on pageload
-      mocha.setup({globals: ['answer', 'cache1', 'cache2']});
+      mocha.setup({globals: ['answer', 'cache1', 'cache2', 'value', 'leafs']});
 
       onload = function(){
         var runner = mocha.run();
