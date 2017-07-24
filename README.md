@@ -15,11 +15,11 @@ I have written some [Javascript tests](https://github.com/LondonAlgorithms/binar
 
 This exercise has 2 versions:
 
-- [The first gives you hints and asks you to fill the blanks in](https://github.com/LondonAlgorithms/binary_search_tree/blob/master/src/binary_search_tree.js)
+- [The first gives you hints and asks you to fill the blanks in.](https://github.com/LondonAlgorithms/binary_search_tree/blob/master/src/binary_search_tree.js)
 
-Note: You need to copy the logic from the file given into `binary_search_tree.js` so the specs can see the function you create.
+    Note: You need to copy the logic from the file given into `binary_search_tree.js` so the specs can see the function you create.
 
-- [The second version only gives you the code skeleton so you need to completely implement the algorithm](https://github.com/LondonAlgorithms/binary_search_tree/blob/master/src/binary_search_tree.js)
+- [The second version only gives you the code skeleton so you need to completely implement the algorithm.](https://github.com/LondonAlgorithms/binary_search_tree/blob/master/src/binary_search_tree.js)
 
 2. Search a Binary tree to see if a value exists in the tree. Hint: see if you can use the code from the `push` function.
 
