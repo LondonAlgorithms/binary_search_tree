@@ -70,12 +70,31 @@ describe('Binary Search', function(){
   });
 
   context('Search', function(){
-    it('the inserter creates a binary tree', function(){
-      var unordered = [10, 12, 5, 4, 20, 8, 7, 15, 13];
-			var bst = tree_builder(unordered);
+    context('When the node exists in the tree', function(){
+      it('the function returns true', function(){
+        var unordered = [10, 12, 5, 4, 20, 8, 7, 15, 13];
+        var bst = tree_builder(unordered);
 
-      expect(bst.search(13)).to.eql(true);
-      expect(bst.search(21)).to.eql(false);
-		});
-	});
+        expect(bst.search(13)).to.eql(true);
+      });
+    });
+
+    context('When the node doesnt exist in the tree', function(){
+      it('the function returns false', function(){
+        var unordered = [10, 12, 5, 4, 20, 8, 7, 15, 13];
+        var bst = tree_builder(unordered);
+
+        expect(bst.search(21)).to.eql(false);
+      });
+    });
+
+
+    context('When the tree is empty', function(){
+      it('the function returns false', function(){
+        var bst = tree_builder([]]);
+
+        expect(bst.search(21)).to.eql(false);
+      });
+    });
+  });
 });
