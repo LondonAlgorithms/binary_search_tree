@@ -51,14 +51,7 @@ BinarySearchTree.prototype.push = function(val){
 }
 
 BinarySearchTree.prototype.search = function(value){
- var root = this.root;
-
- if(!root){
-    this.root = new Node(value);
-    return;
- }
-
-   var currentNode = root;
+  var currentNode = this.root;
 
 	while(currentNode){
     if (currentNode.value == value) {
