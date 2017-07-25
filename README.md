@@ -23,14 +23,14 @@ I have written some [Javascript tests](https://github.com/LondonAlgorithms/binar
 
 2. Search a Binary tree to see if a value exists in the tree.
 
-        Hint: see if you can use the code from the `push` function.
+   Hint: see if you can use the code from the `push` function.
 
 3. Implement the `getMin()` function to return the smallest value in the tree.
 
-        Hint: Remember Binary trees store their smallest values on the left leaf.
+   Hint: Remember Binary trees store their smallest values on the left leaf.
 
 4. Implement the `getMax()` function to return the largest value in the tree.
 
-        Hint: Remember Binary trees store their largest values on the right leaf.
+   Hint: Remember Binary trees store their largest values on the right leaf.
 
 5. Create the `delete` function or maybe attempt to optimize the code!
