@@ -101,18 +101,18 @@ describe('Binary Search', function(){
   context('Get Min', function(){
     it('the function returns the min value in the tree', function(){
       var unordered = [10, 12, 5, 4, 20, 8, 7, 15, 13];
-			var bst = tree_builder(unordered);
+      var bst = tree_builder(unordered);
 
       expect(bst.getMin()).to.eql(4);
-		});
-	});
+    });
+  });
 
   context('Get Max', function(){
     it('the function returns the max value in the tree', function(){
       var unordered = [20, 10, 12, 5, 4, 8, 7, 15, 13];
-			var bst = tree_builder(unordered);
+      var bst = tree_builder(unordered);
 
       expect(bst.getMax()).to.eql(20);
-		});
-	});
+    });
+  });
 });
