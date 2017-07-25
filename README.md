@@ -15,7 +15,7 @@ I have written some [Javascript tests](https://github.com/LondonAlgorithms/binar
 
     This exercise has 2 versions:
 
-      - [The first gives you hints and asks you to fill the blanks in.](https://github.com/LondonAlgorithms/binary_search_tree/blob/master/src/binary_search_tree.js)
+      - [The first gives you hints and asks you to fill the blanks in.](https://github.com/LondonAlgorithms/binary_search_tree/blob/master/src/binary_search_tree_with_some_help.js)
 
          Note: You need to copy the logic from the file given into `binary_search_tree.js` so the specs can see the function you create.
 
