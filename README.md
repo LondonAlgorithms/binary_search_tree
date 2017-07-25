@@ -21,6 +21,16 @@ I have written some [Javascript tests](https://github.com/LondonAlgorithms/binar
 
       - [The second version only gives you the code skeleton so you need to completely implement the algorithm.](https://github.com/LondonAlgorithms/binary_search_tree/blob/master/src/binary_search_tree.js)
 
-2. Search a Binary tree to see if a value exists in the tree. Hint: see if you can use the code from the `push` function.
+2. Search a Binary tree to see if a value exists in the tree.
 
-3. Create the `delete` function or maybe attempt to optimize the code!
+        Hint: see if you can use the code from the `push` function.
+
+3. Implement the `getMin()` function to return the smallest value in the tree.
+
+        Hint: Remember Binary trees store their smallest values on the left leaf.
+
+4. Implement the `getMax()` function to return the largest value in the tree.
+
+        Hint: Remember Binary trees store their largest values on the right leaf.
+
+5. Create the `delete` function or maybe attempt to optimize the code!

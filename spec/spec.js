@@ -91,10 +91,28 @@ describe('Binary Search', function(){
 
     context('When the tree is empty', function(){
       it('the function returns false', function(){
-        var bst = tree_builder([]]);
+        var bst = tree_builder([]);
 
         expect(bst.search(21)).to.eql(false);
       });
     });
   });
+
+  context('Get Min', function(){
+    it('the function returns the min value in the tree', function(){
+      var unordered = [10, 12, 5, 4, 20, 8, 7, 15, 13];
+			var bst = tree_builder(unordered);
+
+      expect(bst.getMin()).to.eql(4);
+		});
+	});
+
+  context('Get Max', function(){
+    it('the function returns the max value in the tree', function(){
+      var unordered = [20, 10, 12, 5, 4, 8, 7, 15, 13];
+			var bst = tree_builder(unordered);
+
+      expect(bst.getMax()).to.eql(20);
+		});
+	});
 });
